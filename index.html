@@ -221,7 +221,7 @@
           </span>
         </h2>
         <div class="contact__form-container">
-          <form action="https://formspree.io/f/xayvyjkg" method="post" class="contact__form">
+          <form id="contact-form" action="https://formspree.io/f/xayvyjkg" method="post" class="contact__form">
             <div class="contact__form-field">
               <label class="contact__form-label" for="name">Name</label>
               <input
@@ -259,6 +259,7 @@
             <button type="submit" class="btn btn--theme contact__btn">
               Submit
             </button>
+            <p class="text-primary" style="width: auto; text-align: left; color: black" id="my-form-status"></p>
           </form>
         </div>
       </div>
@@ -306,5 +307,6 @@
     </footer>
 
     <script src="./index.js"></script>
+
   </body>
 </html>
